@@ -1,0 +1,336 @@
+ssh-keygen
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/eltex-pg1-v12/.ssh/id_rsa
+Your public key has been saved in /home/eltex-pg1-v12/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:hO5gUc+sQZ9NGmoUBzZ1aVZ3lwJBa+zLhmnDwH9x+xI eltex-pg1-v12@eltex-2025-autumn
+The key's randomart image is:
++---[RSA 3072]----+
+|      O++ +*+ . +|
+|     = X B= .o o.|
+|    . = Oo.+  .  |
+|     +.+  o      |
+|    o ooS  o .   |
+|   . o  + + +E.  |
+|      .  B = ..  |
+|        . +  ..  |
+|              .. |
++----[SHA256]-----+
+eltex-pg1-v12@eltex-2025-autumn:~$ ssh-copy-id root@172.16.9.186
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/eltex-pg1-v12/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+root@172.16.9.186's password: 
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'root@172.16.9.186'"
+and check to make sure that only the key(s) you wanted were added.
+
+eltex-pg1-v12@eltex-2025-autumn:~$ ssh root@172.16.9.186
+Welcome to Ubuntu 24.04.2 LTS (GNU/Linux 6.8.0-55-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct 15 01:32:08 PM UTC 2025
+
+  System load:  0.0                Processes:              113
+  Usage of /:   37.9% of 14.66GB   Users logged in:        0
+  Memory usage: 6%                 IPv4 address for ens18: 172.16.9.186
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+
+Last login: Wed Oct 15 13:19:41 2025 from 172.16.8.4
+root@eltex-practice2-pg1-v12:~# cat ~/.ssh/authorized_keys
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCMbcGhEInhMFmMHoBej97rW0iVdRWnxAyaPvXCJM6OTBcYaRS3hZnzkYcoeRNtzjVKru40bc8jye782JjgPfRxq1Si7ZARjKvm1H1Kn/EU2Hs2qsIDgf+nkKvLkoTSQts6fih1jmDi02/Bfp+1JHySYHxPeFEjeSXf+suIMUU47aWfgZph9Gzu/LVGyGdbFPURfvGgUWYT3quHLECd2kQw9twgeazvT2EsRlu5sCc41Lo9QOJcb4vPRSuLBRunk4Q5szHPAoZEOFcAbz35znbiorEWd5CbjDInGPevd0W8HzmzohKlE6H70bs6FGUh7v4pDv3BDpLvG3wUsaZG1tO9/QQvCWje5rn7LGCo/t8WhoGwtvlmesl1vGctkZUJF6aqnFbFmvVFv5Civ5GegbPEM+lo0sN9r5vmytjf9Ea9O1eO9oxHt//uUAfpoSAlJ1UFfWbWCHE/te4YtnT25nadmzAiX0BBu04IX4DOBvKjYNYp+YkYnBrbCCn/W9LEx28= eltex-pg1-v12@eltex-2025-autumn
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCmbGE132kBV6AMQ1Buk1VbvR6wTGemarrzwyWFc/bdSoViL8jUweB0IbxcRs9PRnHbac8ytaoHV0773M0ItI4ZuTp/JeKxYb1tLSkr0sASczqj6rlM2wPzpWxO9V5RDiTNs7eR+RN8hi1OG/26f2KhA8dAoeM/s8VBRdwkR/WEAhzMShUQZeO4grbUKzJeysbzRGOpxj9p/mNGYbpffyUlwAmtpzoRUQRL3HvrQYtQXcJxRxjQz5hXrgKBDEUa/SPRLiDKLtxthi8Xc+/i02v4TwIhOFOYi8dJ/ORM/S6izDDEperYp6nToLge78Rl/pYx/Ab1RF6l6lLxkFff+optSUf/0wFt3Ut2ROOwEi/jFOhhTN6kUmnbmjj2ElIWYzjN/AxOHQP6hZ77IZj2Lco8Hr0Rl1noxBvIpCyCWA5Yhi2c5OIgmN9ykkco9mDWElyzKqHnkYwaLWaBgmWDZgZxhVzzFKy9elVCd1T+9rPUjonSu3gSFPEGqgbT3bZzzk0= eltex-pg1-v12@eltex-2025-autumn
+eltex-pg1-v12@eltex-2025-autumn:~$ cat ~/.ssh/*.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCmbGE132kBV6AMQ1Buk1VbvR6wTGemarrzwyWFc/bdSoViL8jUweB0IbxcRs9PRnHbac8ytaoHV0773M0ItI4ZuTp/JeKxYb1tLSkr0sASczqj6rlM2wPzpWxO9V5RDiTNs7eR+RN8hi1OG/26f2KhA8dAoeM/s8VBRdwkR/WEAhzMShUQZeO4grbUKzJeysbzRGOpxj9p/mNGYbpffyUlwAmtpzoRUQRL3HvrQYtQXcJxRxjQz5hXrgKBDEUa/SPRLiDKLtxthi8Xc+/i02v4TwIhOFOYi8dJ/ORM/S6izDDEperYp6nToLge78Rl/pYx/Ab1RF6l6lLxkFff+optSUf/0wFt3Ut2ROOwEi/jFOhhTN6kUmnbmjj2ElIWYzjN/AxOHQP6hZ77IZj2Lco8Hr0Rl1noxBvIpCyCWA5Yhi2c5OIgmN9ykkco9mDWElyzKqHnkYwaLWaBgmWDZgZxhVzzFKy9elVCd1T+9rPUjonSu3gSFPEGqgbT3bZzzk0= eltex-pg1-v12@eltex-2025-autumn
+eltex-pg1-v12@eltex-2025-autumn:~$ ls -la ~/.ssh/*.pub
+-rw-r--r-- 1 eltex-pg1-v12 eltex-pg1-v12 585 Oct 15 19:47 /home/eltex-pg1-v12/.ssh/id_rsa.pub
+root@eltex-practice2-pg1-v12:~# ls -la ~/.ssh/authorized_keys
+-rw------- 1 root root 1170 Oct 15 13:01 /root/.ssh/authorized_keys
+root@eltex-practice2-pg1-v12:~# sudo useradd -m -s /bin/bash user1
+root@eltex-practice2-pg1-v12:~# grep user1 /etc/passwd
+user1:x:1001:1001::/home/user1:/bin/bash
+root@eltex-practice2-pg1-v12:~# sudo passwd user1
+New password: 
+Retype new password: 
+passwd: password updated successfully
+root@eltex-practice2-pg1-v12:~# sudo adduser user2
+info: Adding user `user2' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `user2' (1002) ...
+info: Adding new user `user2' (1002) with group `user2 (1002)' ...
+info: Creating home directory `/home/user2' ...
+info: Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for user2
+Enter the new value, or press ENTER for the default
+	Full Name []: Zadorozhnaya
+	Room Number []: 2
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+info: Adding new user `user2' to supplemental / extra groups `users' ...
+info: Adding user `user2' to group `users' ...
+root@eltex-practice2-pg1-v12:~# sudo adduser user3
+info: Adding user `user3' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `user3' (1003) ...
+info: Adding new user `user3' (1003) with group `user3 (1003)' ...
+info: Creating home directory `/home/user3' ...
+info: Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for user3
+Enter the new value, or press ENTER for the default
+	Full Name []: Zadorozhnaya Anastasia
+	Room Number []: 3
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+info: Adding new user `user3' to supplemental / extra groups `users' ...
+info: Adding user `user3' to group `users' ...
+root@eltex-practice2-pg1-v12:~# sudo usermod -s /usr/sbin/nologin user3
+root@eltex-practice2-pg1-v12:~# grep user3 /etc/passwd
+user3:x:1003:1003:Zadorozhnaya Anastasia,3,,:/home/user3:/usr/sbin/nologin
+root@eltex-practice2-pg1-v12:~# su user3
+This account is currently not available.
+root@eltex-practice2-pg1-v12:~# su -s /bin/bash user3
+user3@eltex-practice2-pg1-v12:/root$ logout
+bash: logout: not login shell: use `exit'
+user3@eltex-practice2-pg1-v12:/root$ 
+root@eltex-practice2-pg1-v12:~# sudo groupadd mygroup
+root@eltex-practice2-pg1-v12:~# grep mygroup /etc/group
+mygroup:x:1004:
+root@eltex-practice2-pg1-v12:~# sudo usermod -a -G mygroup user1
+root@eltex-practice2-pg1-v12:~# sudo usermod -a -G mygroup user2
+root@eltex-practice2-pg1-v12:~# sudo usermod -a -G mygroup user3
+root@eltex-practice2-pg1-v12:~# grep mygroup /etc/group
+mygroup:x:1004:user1,user2,user3
+root@eltex-practice2-pg1-v12:~# sudo mkdir -p /opt/share
+root@eltex-practice2-pg1-v12:~# ls -ld /opt/share
+drwxr-xr-x 2 root root 4096 Oct 16 13:28 /opt/share
+root@eltex-practice2-pg1-v12:~# sudo chgrp mygroup /opt/share
+root@eltex-practice2-pg1-v12:~# ls -ld /opt/share
+drwxr-xr-x 2 root mygroup 4096 Oct 16 13:28 /opt/share
+root@eltex-practice2-pg1-v12:~# sudo chmod g+rwxs /opt/share
+root@eltex-practice2-pg1-v12:~# ls -ld /opt/share
+drwxrwsr-x 2 root mygroup 4096 Oct 16 13:28 /opt/share
+root@eltex-practice2-pg1-v12:~# sudo su - user1 -c "umask"
+0002
+root@eltex-practice2-pg1-v12:~# sudo su - user1 -c "echo 'umask 0026' >> ~/.bashrc"
+root@eltex-practice2-pg1-v12:~# sudo tail -5 /home/user1/.bashrc
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
+umask 0026
+root@eltex-practice2-pg1-v12:~# sudo su - user1 -c "umask"
+0002
+root@eltex-practice2-pg1-v12:~# sudo su - user1 -c "echo 'umask 0026' >> ~/.profile"
+root@eltex-practice2-pg1-v12:~# sudo su -user1 -c "umask"
+Try 'su --help' for more information.
+root@eltex-practice2-pg1-v12:~# sudo su - user1 -c "umask"
+0026
+root@eltex-practice2-pg1-v12:~# ls -la /opt/share/
+total 8
+drwxrwsr-x 2 root mygroup 4096 Oct 16 13:28 .
+drwxr-xr-x 3 root root    4096 Oct 16 13:28 ..
+root@eltex-practice2-pg1-v12:~# sudo su - user1 -c "touch /opt/share/file_user1.txt"
+root@eltex-practice2-pg1-v12:~# sudo su - user2 -c "touch /opt/share/file_user2.txt"
+root@eltex-practice2-pg1-v12:~# sudo su - user3 -s /bin/bash -c "touch /opt/share/file_user3.txt"
+root@eltex-practice2-pg1-v12:~# ls -la /opt/share/
+total 8
+drwxrwsr-x 2 root  mygroup 4096 Oct 17 08:02 .
+drwxr-xr-x 3 root  root    4096 Oct 16 13:28 ..
+-rw-r----- 1 user1 mygroup    0 Oct 17 07:57 file_user1.txt
+-rw-rw-r-- 1 user2 mygroup    0 Oct 17 07:57 file_user2.txt
+-rw-rw-r-- 1 user3 mygroup    0 Oct 17 08:02 file_user3.txt
+root@eltex-practice2-pg1-v12:~# su user1
+user1@eltex-practice2-pg1-v12:/root$ rm /opt/share/file_user2.txt 
+user1@eltex-practice2-pg1-v12:/root$ exit
+exit
+root@eltex-practice2-pg1-v12:~# su user2
+user2@eltex-practice2-pg1-v12:/root$ rm /opt/share/file_user3.txt
+user2@eltex-practice2-pg1-v12:/root$ exit
+exit
+root@eltex-practice2-pg1-v12:~# su user3 -s /bin/bash
+user3@eltex-practice2-pg1-v12:/root$ rm /opt/share/file_user1.txt 
+rm: remove write-protected regular empty file '/opt/share/file_user1.txt'? Y
+user3@eltex-practice2-pg1-v12:/root$ exit
+exit
+root@eltex-practice2-pg1-v12:~# ls /opt/share/
+root@eltex-practice2-pg1-v12:~#  
+root@eltex-practice2-pg1-v12:~# sudo chmod +t /opt/share
+root@eltex-practice2-pg1-v12:~# ls -ld /opt/share
+drwxrwsr-t 2 root mygroup 4096 Oct 17 08:27 /opt/share
+root@eltex-practice2-pg1-v12:~# su - user1 -c "touch /opt/share/file_user1.txt"
+root@eltex-practice2-pg1-v12:~# su - user2 -c "touch /opt/share/file_user2.txt"
+root@eltex-practice2-pg1-v12:~# su - user3 -s /bin/bash -c "touch /opt/share/file_user3.txt"
+root@eltex-practice2-pg1-v12:~# ls -la /opt/share/
+total 8
+drwxrwsr-t 2 root  mygroup 4096 Oct 17 10:46 .
+drwxr-xr-x 3 root  root    4096 Oct 16 13:28 ..
+-rw-r----- 1 user1 mygroup    0 Oct 17 10:35 file_user1.txt
+-rw-rw-r-- 1 user2 mygroup    0 Oct 17 10:41 file_user2.txt
+-rw-rw-r-- 1 user3 mygroup    0 Oct 17 10:46 file_user3.txt
+root@eltex-practice2-pg1-v12:~# su user1
+user1@eltex-practice2-pg1-v12:/root$ rm /opt/share/file_user2.txt
+rm: cannot remove '/opt/share/file_user2.txt': Operation not permitted
+user1@eltex-practice2-pg1-v12:/root$ exit
+exit
+root@eltex-practice2-pg1-v12:~# su user2
+user2@eltex-practice2-pg1-v12:/root$ rm /opt/share/file_user3.txt
+rm: cannot remove '/opt/share/file_user3.txt': Operation not permitted
+user2@eltex-practice2-pg1-v12:/root$ exit
+exit
+root@eltex-practice2-pg1-v12:~# su user3 -s /bin/bash
+user3@eltex-practice2-pg1-v12:/root$ rm /opt/share/file_user1.txt
+rm: remove write-protected regular empty file '/opt/share/file_user1.txt'? y
+rm: cannot remove '/opt/share/file_user1.txt': Operation not permitted
+user3@eltex-practice2-pg1-v12:/root$ exit
+exit
+root@eltex-practice2-pg1-v12:~#
+root@eltex-practice2-pg1-v12:~# echo "user1 ALL=(ALL) NOPASSWD: /usr/bin/dmesg" | sudo tee /etc/sudoers.d/user1_dmesg
+user1 ALL=(ALL) NOPASSWD: /usr/bin/dmesg
+root@eltex-practice2-pg1-v12:~# sudo visudo -c
+/etc/sudoers: parsed OK
+/etc/sudoers.d/README: parsed OK
+/etc/sudoers.d/user1_dmesg: bad permissions, should be mode 0440
+root@eltex-practice2-pg1-v12:~# sudo su - user1 -c "sudo dmesg | head -5"
+[    0.000000] Linux version 6.8.0-55-generic (buildd@lcy02-amd64-095) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #57-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb 12 23:42:21 UTC 2025 (Ubuntu 6.8.0-55.57-generic 6.8.12)
+[    0.000000] Command line: BOOT_IMAGE=/vmlinuz-6.8.0-55-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+root@eltex-practice2-pg1-v12:~# sudo tee /usr/local/bin/dmesg_wrapper > /dev/null <<  
+> #!/bin/bash
+> /usr/bin/dmesg "$@"
+
+root@eltex-practice2-pg1-v12:~# sudo chmod 4755 /usr/local/bin/dmesg_wrapper
+root@eltex-practice2-pg1-v12:~# sudo chown root:root /usr/local/bin/dmesg_wrapper
+root@eltex-practice2-pg1-v12:~# ls -la /usr/local/bin/dmesg_wrapper
+-rwxr-xr-x 1 root root 32 Oct 17 14:23 /usr/local/bin/dmesg_wrapper
+root@eltex-practice2-pg1-v12:~# su user2
+user2@eltex-practice2-pg1-v12:/root$ /usr/local/bin/./dmesg_wrapper.sh | head -5
+[    0.000000] Linux version 6.8.0-55-generic (buildd@lcy02-amd64-095) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #57-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb 12 23:42:21 UTC 2025 (Ubuntu 6.8.0-55.57-generic 6.8.12)
+[    0.000000] Command line: BOOT_IMAGE=/vmlinuz-6.8.0-55-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+user2@eltex-practice2-pg1-v12:/root$ exit
+exit
+root@eltex-practice2-pg1-v12:~# sudo chage -M 10 user1
+root@eltex-practice2-pg1-v12:~# sudo chage -M 10 user2
+root@eltex-practice2-pg1-v12:~# sudo chage -M 10 user3
+root@eltex-practice2-pg1-v12:~# sudo chage -l user1
+Last password change					: Oct 16, 2025
+Password expires					: Oct 26, 2025
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 10
+Number of days of warning before password expires	: 7
+root@eltex-practice2-pg1-v12:~# sudo chage -l user2
+Last password change					: Oct 16, 2025
+Password expires					: Oct 26, 2025
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 10
+Number of days of warning before password expires	: 7
+root@eltex-practice2-pg1-v12:~# sudo chage -l user3
+Last password change					: Oct 16, 2025
+Password expires					: Oct 26, 2025
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 10
+Number of days of warning before password expires	: 7
+root@eltex-practice2-pg1-v12:~# echo "Анастасия Задорожная" | sudo tee /etc/motd
+Анастасия Задорожная
+root@eltex-practice2-pg1-v12:~# sudo rsync -av /etc/ /root/etc_backup/
+root@eltex-practice2-pg1-v12:~# ls
+etc_backup  practice2_eltex-pg1-v12_part1.log
+root@eltex-practice2-pg1-v12:~# sudo tar -czf /root/etc_backup.tar.gz -C /root etc_backup
+root@eltex-practice2-pg1-v12:~# sudo tar -cjf /root/etc_backup.tar.bz2 -C /root etc_backup
+root@eltex-practice2-pg1-v12:~# sudo 7z a /root/etc_backup.7z /root/etc_backup/
+
+7-Zip 23.01 (x64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit locale=en_US.UTF-8 Threads:2 OPEN_MAX:1024
+
+Scanning the drive:
+                 
+WARNING: errno=2 : No such file or directory
+/root/etc_backup/os-release
+
+
+WARNING: errno=2 : No such file or directory
+/root/etc_backup/resolv.conf
+
+
+WARNING: errno=2 : No such file or directory
+/root/etc_backup/mtab
+
+244 folders, 1508 files, 38702623 bytes (37 MiB)
+
+Creating archive: /root/etc_backup.7z
+
+Add new data to archive: 244 folders, 1508 files, 38702623 bytes (37 MiB)
+
+                                                              
+Files read from disk: 1495
+Archive size: 4678352 bytes (4569 KiB)
+
+Scan WARNINGS for files and folders:
+
+/root/etc_backup/os-release : errno=2 : No such file or directory
+/root/etc_backup/resolv.conf : errno=2 : No such file or directory
+/root/etc_backup/mtab : errno=2 : No such file or directory
+----------------
+Scan WARNINGS: 3
+root@eltex-practice2-pg1-v12:~# ls -lh /root/etc_backup.*
+-rw-r--r-- 1 root root 4.5M Oct 18 08:43 /root/etc_backup.7z
+-rw-r--r-- 1 root root 550K Oct 18 08:39 /root/etc_backup.tar.bz2
+-rw-r--r-- 1 root root 583K Oct 18 08:35 /root/etc_backup.tar.gz
+root@eltex-practice2-pg1-v12:~# nano /etc/motd
+root@eltex-practice2-pg1-v12:~# cat /etc/motd
+Анастасия Задорожная
+18.10.2025 16:00
+root@eltex-practice2-pg1-v12:~# sudo rsync -a /etc/ /root/etc_backup/
+root@eltex-practice2-pg1-v12:~# sudo tar -czf /root/motd_backup.tar.gz -C /etc motd
+root@eltex-practice2-pg1-v12:~# mkdir /root/etc_backup_gzip
+root@eltex-practice2-pg1-v12:~# mkdir /root/etc_backup_7zip
+root@eltex-practice2-pg1-v12:~# sudo tar -xzf /root/etc_backup.tar.gz -C /root/etc_backup_gzip/
+root@eltex-practice2-pg1-v12:~# sudo 7z x /root/etc_backup.7z -o/root/etc_backup_7zip/
+root@eltex-practice2-pg1-v12:~# sudo diff /root/etc_backup_gzip/etc_backup/motd /root/etc_backup_7zip/etc_backup/motd
+2d1
+< 18.10.2025 16:00
+
+
