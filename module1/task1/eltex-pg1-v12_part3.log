@@ -1,0 +1,96 @@
+eltex-pg1-v12@eltex-2025-autumn:~$ echo "echo \"\" > \"\${USER}_part3.log\"" >> "${USER}_part3.log"
+eltex-pg1-v12@eltex-2025-autumn:~$ cat eltex-pg1-v12_part3.log
+echo "" > "${USER}_part3.log"
+
+eltex-pg1-v12@eltex-2025-autumn:~$ mkdir -p D1/D2/D3
+eltex-pg1-v12@eltex-2025-autumn:~$ ls
+ 2025-01   2025-11
+ 2025-02   2025-12
+ 2025-03   D1
+ 2025-04   eltex-pg1-v12_part3_gt50M.log
+ 2025-05   eltex-pg1-v12_part3.log
+ 2025-06  '~eltex-pg1-v12_part.log'
+ 2025-07   practice2_eltex-pg1-v12_part1.log
+ 2025-08   report_part1.txt
+ 2025-09   root@172.16.9.186
+ 2025-10
+
+eltex-pg1-v12@eltex-2025-autumn:~$ touch D1/D2/file.txt
+eltex-pg1-v12@eltex-2025-autumn:~$ ls D1/D2
+D3  file.txt
+
+eltex-pg1-v12@eltex-2025-autumn:~$ nano D1/D2/file.txt
+eltex-pg1-v12@eltex-2025-autumn:~$ cat D1/D2/file.txt
+Zadorozhnaya Anastasia
+
+eltex-pg1-v12@eltex-2025-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_symlink.txt
+eltex-pg1-v12@eltex-2025-autumn:~$ ln D1/D2/file.txt D1/D2/D3/file_hardlink.txt
+eltex-pg1-v12@eltex-2025-autumn:~$ ls D1/D2/D3
+file_hardlink.txt  file_symlink.txt
+
+eltex-pg1-v12@eltex-2025-autumn:~$ echo "cat D1/D2/D3/file_hardlink.txt" >> eltex-pg1-v12_part3.log
+eltex-pg1-v12@eltex-2025-autumn:~$ echo "readlink D1/D2/D3/file_symlink.txt">> eltex-pg1-v12_part3.log
+eltex-pg1-v12@eltex-2025-autumn:~$ cat D1/D2/D3/file_hardlink.txt
+Zadorozhnaya Anastasia
+eltex-pg1-v12@eltex-2025-autumn:~$ readlink D1/D2/D3/file_symlink.txt
+D1/D2/file.txt
+
+eltex-pg1-v12@eltex-2025-autumn:~$ mv D1/D2/file.txt D1/
+eltex-pg1-v12@eltex-2025-autumn:~$ ls D1
+D2  file.txt
+
+eltex-pg1-v12@eltex-2025-autumn:~$ cat D1/D2/D3/file_hardlink.txt
+Zadorozhnaya Anastasia
+eltex-pg1-v12@eltex-2025-autumn:~$ readlink D1/D2/D3/file_symlink.txt
+D1/D2/file.txt
+
+eltex-pg1-v12@eltex-2025-autumn:~$ rm -rf D1/D2
+eltex-pg1-v12@eltex-2025-autumn:~$ ls D1
+file.txt
+
+eltex-pg1-v12@eltex-2025-autumn:~$ find / -type f -size +20M 2>/dev/null >> "${USER}_part3_gt50M.log"
+eltex-pg1-v12@eltex-2025-autumn:~$ cat eltex-pg1-v12_part3_gt50M.log
+/usr/bin/x86_64-linux-gnu-lto-dump-12
+/usr/lib/gcc/x86_64-linux-gnu/12/lto1
+/usr/lib/gcc/x86_64-linux-gnu/12/cc1
+/usr/lib/x86_64-linux-gnu/libicudata.so.72.1
+/proc/kcore
+/boot/initrd.img-6.1.0-31-amd64
+/boot/initrd.img-6.1.0-32-amd64
+/boot/initrd.img-6.1.0-40-amd64
+/var/cache/apt/srcpkgcache.bin
+/var/cache/apt/pkgcache.bin
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_binary-amd64_Packages
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_source_Sources
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_i18n_Translation-en
+/usr/bin/x86_64-linux-gnu-lto-dump-12
+/usr/lib/gcc/x86_64-linux-gnu/12/lto1
+/usr/lib/gcc/x86_64-linux-gnu/12/cc1
+/usr/lib/x86_64-linux-gnu/libicudata.so.72.1
+/proc/kcore
+/boot/initrd.img-6.1.0-31-amd64
+/boot/initrd.img-6.1.0-32-amd64
+/boot/initrd.img-6.1.0-40-amd64
+/var/cache/apt/srcpkgcache.bin
+/var/cache/apt/pkgcache.bin
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_binary-amd64_Packages
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_source_Sources
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_i18n_Translation-en
+
+eltex-pg1-v12@eltex-2025-autumn:~$ find ~ -type f -mmin -1440
+/home/eltex-pg1-v12/eltex-pg1-v12_part3_gt50M.log
+/home/eltex-pg1-v12/eltex-pg1-v12_part3.log
+/home/eltex-pg1-v12/D1/file.txt
+/home/eltex-pg1-v12/eltex-pg1-v12_part3.logc
+
+eltex-pg1-v12@eltex-2025-autumn:~$ which find 
+/usr/bin/find
+
+eltex-pg1-v12@eltex-2025-autumn:~$ file /usr/bin/find
+/usr/bin/find: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=5545a6c7162d325fbe5ffabcbfe4e5521b66ce70, for GNU/Linux 3.2.0, stripped
+
+eltex-pg1-v12@eltex-2025-autumn:~$ file /boot/initrd.img*
+/boot/initrd.img-6.1.0-31-amd64: ASCII cpio archive (SVR4 with no CRC)
+/boot/initrd.img-6.1.0-32-amd64: ASCII cpio archive (SVR4 with no CRC)
+/boot/initrd.img-6.1.0-40-amd64: ASCII cpio archive (SVR4 with no CRC)
+

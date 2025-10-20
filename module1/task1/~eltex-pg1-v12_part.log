@@ -1,0 +1,981 @@
+Script started on 2025-10-14 16:27:49+07:00 [TERM="screen.xterm-256color" TTY="/dev/pts/86" COLUMNS="65" LINES="23"]
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ vi[K[K[K[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [K[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [K[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls [K
+ls           lsb_release  lsinitramfs  lslocks      lsmod        lspci
+lsattr       lscpu        lsipc        lslogins     lsns         lsusb
+lsblk        lsfd         lsirq        lsmem        lsof         
+[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls[K[KHIST[K[K[K[Kscript -f ~${USER}_part.log[5Peen -S whoami_part2ls[KXS 2970138 quit3016453[C[C[C[C[Cls[Kr 3016453ls[Kwatch /usr/bin/vmstat[11Pscreen -lscat report_part1.txt [2Pvi report_part1.txtls[K�Ы[K[Kcompgen -v HIST
+[?2004lHISTCMD
+HISTCONTROL
+HISTFILE
+HISTFILESIZE
+HISTSIZE
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ echo $HIT[KSTSIZE
+[?2004l1000
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls -d /[K.*
+[?2004l.bash_history  .bash_logout  .bashrc  [0m[01;34m.config[0m  .profile  .viminfo
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ export HISTTIMEFORMAT="%D[Kd/%m/%y %T"
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ dar[Kte
+[?2004lTue Oct 14 06:37:40 PM +07 2025
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ history {[K| ta[K[K[K[K| tail -5
+[?2004l   80  14/10/25 16:57:18echo $HISTSIZE
+   81  14/10/25 17:00:16ls -d .*
+   82  14/10/25 17:16:24export HISTTIMEFORMAT="%d/%m/%y %T"
+   83  14/10/25 18:37:40date
+   84  14/10/25 18:39:10history | tail -5
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ taik[Kl -5 ~/,[K.bash_history
+[?2004lscript -f ~${USER}_part.log
+screen -S whoami_part2
+screen -ls
+screen -r 567961
+screen -x whoami_part2 
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [K[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [K[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [K[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [K[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ export PROMPT_COMMAND="HI[K[Khistory - a"
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ g[Khistoru[Ky | tail -5
+[?2004l   83  14/10/25 18:37:40date
+   84  14/10/25 18:39:10history | tail -5
+   85  14/10/25 18:49:13tail -5 ~/.bash_history
+   86  14/10/25 18:59:09export PROMPT_COMMAND="history -a"
+   87  14/10/25 18:59:42history | tail -5
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ date
+[?2004lTue Oct 14 06:59:57 PM +07 2025
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ history | tail -5
+[?2004l   85  14/10/25 18:49:13tail -5 ~/.bash_history
+   86  14/10/25 18:59:09export PROMPT_COMMAND="history -a"
+   87  14/10/25 18:59:42history | tail -5
+   88  14/10/25 18:59:57date
+   89  14/10/25 19:00:09history | tail -5
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ tail -5 ~/bash[K[K[K[K/[K.bash_history
+[?2004lhistory | tail -5
+#1760443197
+date
+#1760443209
+history | tail -5
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ tail -5 ~/.bash_history[6Phistory | tail -5date[Khistory | tail -5export PROMPT_COMMAND="history -a"[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [9Ptail -5 ~/.bash_history
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Phistory | tail -5date[Kexport HISTTIMEFORMAT="%d/%m/%y %T"[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ date[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chistory | tail -5tail -5 ~/.bash_history[6Phistory | tail -5date[Kexport HISTTIMEFORMAT="%d/%m/%y %T"[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls -d .*[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $HISTSIZEcompgen -v HIST[1Pecho $HISTSIZE[6Pls -d .*export HISTTIMEFORMAT="%d/%m/%y %T"[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ date[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chistory | tail -5tail -5 ~/.bash_history[6Phistory | tail -5date[Kexport HISTTIMEFORMAT="%d/%m/%y %T"[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls -d .*[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $HISTSIZEcompgen -v HIST[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kscript -f ~${USER}_part.log[5Peen -S whoami_part2ls[KXS 2970138 quit3016453[C[C[C[C[Cls[Kr 3016453ls[Kwatch /usr/bin/vmstat[11Pscreen -lscat report_part1.txt [2Pvi report_part1.txtls[K�Ыvi report_part1.txtlogout[Kscreen -ls[K-ls[4Plogoutvi report_part1.txt�Ы[Klsvi report_part1.txtcat report_part1.txt [11Pscreen -lswatch /usr/bin/vmstat[11Pscreen -lscat report_part1.txt [2Pvi report_part1.txtls[K�Ыvi report_part1.txtlogout[Kscreen -ls[K-x 2970138ls[Kx 2970138r[C[C[C[C[C[C[C[Cx[C[C[C[C[C[C[C[Cls[K[K[K[K[K[K[K[K[K[K[Kscreen -hr 2970138ls[K[5Pclearscreen -r top2970138ls[Kr top2970138ls[KdmS top topls[Kr 2963566ls[KdmS top topls[KXS 3372 quit[1@055[C[C[C[C[C[C[K2920349 quitls[Kr 2941999.pts-40.eltex-2025-autumn [A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctop[Kapt install -y screen[11Pscreen -ls[Kw[Kscreen[3Ptopscreen -S top top -x ls[11P -S topn[K[K[K[K[K[K[Kexport PROMPT_COMMAND="history - a"
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ hi[K[Kdate
+[?2004lTue Oct 14 07:16:58 PM +07 2025
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ history | tail -5
+[?2004l   89  14/10/25 19:00:09history | tail -5
+   90  14/10/25 19:01:00tail -5 ~/.bash_history
+   91  14/10/25 19:16:43export PROMPT_COMMAND="history -a"
+   92  14/10/25 19:16:58date
+   93  14/10/25 19:17:10history | tail -5
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ tail -6[K5 ~/.basg[Kh_history
+[?2004lexport PROMPT_COMMAND="history -a"
+#1760444218
+date
+#1760444230
+history | tail -5
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ S[KDATE=4[K$[K"$(date)"
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ echo $DATE
+[?2004lTue Oct 14 07:49:16 PM +07 2025
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ TIME="$(time)"
+[?2004l
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ echo [K[K[K[K[Kecho $TIME
+[?2004l
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ TIME=$(date +%T)
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ echo &[K$TIME
+[?2004l20:22:18
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ echo "DATE: $dar[Kte[K[K[K[KDATE"
+[?2004lDATE: Tue Oct 14 07:49:16 PM +07 2025
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ echo "TIME: $time[K[K[K[KTIN[KME"
+[?2004lTIME: 20:22:18
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ DATE_TIME="$date [K[K[K[K[KDATE &[K$time[K[K[K[KTIME"
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ echo $DATE_TIME
+[?2004lTue Oct 14 07:49:16 PM +07 2025 20:22:18
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ find /bin [K /sbin -type f -name '* [0-9]*'
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ find /bin /sbin -type f -regex'. *[0-9].*'
+[?2004lfind: unknown predicate `-regex.*[0-9].*'
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ find /bin /sbin -type f -regex'.*[0-9].*'[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K/usr /bin/[K /sbin -typef[K f -re gex'.*[0-9].*'
+[?2004lfind: unknown predicate `-regex.*[0-9].*'
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ find /usr/bin/sbin -type f -rege x'.*[0-9].*'
+[?2004lfind: unknown predicate `-regex.*[0-9].*'
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ find /usr/bin -type f -regex'.*[ 0-9].*'
+[?2004lfind: unknown predicate `-regex.*[0-9].*'
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ find /usr/bin -type f -regex'.*[0-9].*'[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[Kf
+[?2004l/usr/bin/last
+/usr/bin/sort
+/usr/bin/chgrp
+/usr/bin/apt-sortpkgs
+/usr/bin/dbus-run-session
+/usr/bin/utmpdump
+/usr/bin/who
+/usr/bin/grub-mkimage
+/usr/bin/screen
+/usr/bin/systemd-detect-virt
+/usr/bin/setpci
+/usr/bin/systemd-tty-ask-password-agent
+/usr/bin/pod2html
+/usr/bin/nsupdate
+/usr/bin/pic
+/usr/bin/dir
+/usr/bin/rmdir
+/usr/bin/python3.11
+/usr/bin/lnstat
+/usr/bin/ssh-argv0
+/usr/bin/hardlink
+/usr/bin/wdctl
+/usr/bin/test
+/usr/bin/ucfq
+/usr/bin/zstd
+/usr/bin/journalctl
+/usr/bin/setarch
+/usr/bin/cksum
+/usr/bin/systemd-analyze
+/usr/bin/soelim
+/usr/bin/gzexe
+/usr/bin/ijoin
+/usr/bin/c99-gcc
+/usr/bin/grub-mklayout
+/usr/bin/xz
+/usr/bin/split
+/usr/bin/grub-mkstandalone
+/usr/bin/infocmp
+/usr/bin/x86_64-linux-gnu-gcc-ar-12
+/usr/bin/lsblk
+/usr/bin/dpkg-deb
+/usr/bin/base64
+/usr/bin/lsattr
+/usr/bin/logname
+/usr/bin/run-parts
+/usr/bin/strace-log-merge
+/usr/bin/rdma
+/usr/bin/getopt
+/usr/bin/chrt
+/usr/bin/ptx
+/usr/bin/mdig
+/usr/bin/deb-systemd-invoke
+/usr/bin/gpgv
+/usr/bin/mktemp
+/usr/bin/x86_64-linux-gnu-gcc-ranlib-12
+/usr/bin/systemd-mount
+/usr/bin/grub-editenv
+/usr/bin/enc2xs
+/usr/bin/aa-exec
+/usr/bin/grub-fstest
+/usr/bin/bzexe
+/usr/bin/printenv
+/usr/bin/join
+/usr/bin/splitfont
+/usr/bin/slabtop
+/usr/bin/loadunimap
+/usr/bin/numfmt
+/usr/bin/whiptail
+/usr/bin/mawk
+/usr/bin/traceroute-nanog
+/usr/bin/systemd-run
+/usr/bin/ptardiff
+/usr/bin/inetutils-telnet
+/usr/bin/wc
+/usr/bin/deb-systemd-helper
+/usr/bin/cpan
+/usr/bin/dbus-cleanup-sockets
+/usr/bin/chmod
+/usr/bin/x86_64-linux-gnu-gcov-12
+/usr/bin/nano
+/usr/bin/csplit
+/usr/bin/ngettext
+/usr/bin/pod2usage
+/usr/bin/ssh-copy-id
+/usr/bin/mv
+/usr/bin/comm
+/usr/bin/sudo
+/usr/bin/zcat
+/usr/bin/[
+/usr/bin/gencat
+/usr/bin/dpkg-statoverride
+/usr/bin/grub-mknetdir
+/usr/bin/groff
+/usr/bin/touch
+/usr/bin/lscpu
+/usr/bin/x86_64-linux-gnu-objdump
+/usr/bin/whereis
+/usr/bin/hostname
+/usr/bin/systemd-socket-activate
+/usr/bin/ss
+/usr/bin/sprof
+/usr/bin/sha224sum
+/usr/bin/zipdetails
+/usr/bin/xzmore
+/usr/bin/apt
+/usr/bin/od
+/usr/bin/login
+/usr/bin/sftp
+/usr/bin/nohup
+/usr/bin/grub-render-label
+/usr/bin/strace
+/usr/bin/lsipc
+/usr/bin/printf
+/usr/bin/systemd-machine-id-setup
+/usr/bin/dotlockfile
+/usr/bin/screendump
+/usr/bin/perlivp
+/usr/bin/x86_64-linux-gnu-objcopy
+/usr/bin/sensible-editor
+/usr/bin/tsort
+/usr/bin/lsmem
+/usr/bin/apt-cache
+/usr/bin/ipcs
+/usr/bin/bzip2
+/usr/bin/dbus-send
+/usr/bin/script
+/usr/bin/ucf
+/usr/bin/traceproto.db
+/usr/bin/chfn
+/usr/bin/systemctl
+/usr/bin/sensible-pager
+/usr/bin/ischroot
+/usr/bin/findaffix
+/usr/bin/pwd
+/usr/bin/x86_64-linux-gnu-readelf
+/usr/bin/laptop-detect
+/usr/bin/mapscrn
+/usr/bin/x86_64-linux-gnu-ar
+/usr/bin/usb-devices
+/usr/bin/xargs
+/usr/bin/linux-check-removal
+/usr/bin/setvtrgb
+/usr/bin/taskset
+/usr/bin/unicode_stop
+/usr/bin/choom
+/usr/bin/kill
+/usr/bin/mount
+/usr/bin/pgrep
+/usr/bin/grub-mkpasswd-pbkdf2
+/usr/bin/gzip
+/usr/bin/zless
+/usr/bin/showkey
+/usr/bin/tar
+/usr/bin/stty
+/usr/bin/zfgrep
+/usr/bin/mtrace
+/usr/bin/lspci
+/usr/bin/streamzip
+/usr/bin/ps
+/usr/bin/tryaffix
+/usr/bin/clear
+/usr/bin/dpkg-split
+/usr/bin/md5sum
+/usr/bin/shred
+/usr/bin/loginctl
+/usr/bin/man
+/usr/bin/watch
+/usr/bin/mk_modmap
+/usr/bin/nmap
+/usr/bin/codepage
+/usr/bin/tput
+/usr/bin/eject
+/usr/bin/lft.db
+/usr/bin/mandb
+/usr/bin/partx
+/usr/bin/systemd-sysusers
+/usr/bin/bzip2recover
+/usr/bin/cmp
+/usr/bin/runcon
+/usr/bin/busctl
+/usr/bin/grub-menulst2cfg
+/usr/bin/pzstd
+/usr/bin/expand
+/usr/bin/usbreset
+/usr/bin/x86_64-linux-gnu-cpp-12
+/usr/bin/grops
+/usr/bin/x86_64-linux-gnu-size
+/usr/bin/mt-gnu
+/usr/bin/unexpand
+/usr/bin/unshare
+/usr/bin/nice
+/usr/bin/x86_64-linux-gnu-gprofng
+/usr/bin/dbus-uuidgen
+/usr/bin/umount
+/usr/bin/less
+/usr/bin/apt-extracttemplates
+/usr/bin/pathchk
+/usr/bin/report-hw
+/usr/bin/sum
+/usr/bin/cp
+/usr/bin/find
+/usr/bin/install
+/usr/bin/fgconsole
+/usr/bin/x86_64-linux-gnu-gprof
+/usr/bin/h2xs
+/usr/bin/memusagestat
+/usr/bin/kbdinfo
+/usr/bin/tty
+/usr/bin/debconf
+/usr/bin/x86_64-linux-gnu-ranlib
+/usr/bin/zstdgrep
+/usr/bin/x86_64-linux-gnu-ld.gold
+/usr/bin/resizepart
+/usr/bin/grub-mkfont
+/usr/bin/x86_64-linux-gnu-as
+/usr/bin/openvt
+/usr/bin/iconv
+/usr/bin/dpkg-maintscript-helper
+/usr/bin/update-mime-database
+/usr/bin/yes
+/usr/bin/debconf-copydb
+/usr/bin/c_rehash
+/usr/bin/os-prober
+/usr/bin/ldd
+/usr/bin/neqn
+/usr/bin/top
+/usr/bin/manpath
+/usr/bin/setterm
+/usr/bin/corelist
+/usr/bin/getconf
+/usr/bin/lsinitramfs
+/usr/bin/xdg-user-dirs-update
+/usr/bin/debianbts
+/usr/bin/reportbug
+/usr/bin/lexgrog
+/usr/bin/pldd
+/usr/bin/systemd-tmpfiles
+/usr/bin/linux-boot-prober
+/usr/bin/perlthanks
+/usr/bin/systemd-cryptenroll
+/usr/bin/mknod
+/usr/bin/cvtsudoers
+/usr/bin/pod2text
+/usr/bin/file
+/usr/bin/xsubpp
+/usr/bin/ssh-keyscan
+/usr/bin/factor
+/usr/bin/systemd-inhibit
+/usr/bin/bzcat
+/usr/bin/nproc
+/usr/bin/chown
+/usr/bin/select-editor
+/usr/bin/x86_64-linux-gnu-nm
+/usr/bin/ssh-agent
+/usr/bin/udevadm
+/usr/bin/lsns
+/usr/bin/zforce
+/usr/bin/lsusb
+/usr/bin/instmodsh
+/usr/bin/sleep
+/usr/bin/chardetect
+/usr/bin/dumpkeys
+/usr/bin/systemd-sysext
+/usr/bin/update-alternatives
+/usr/bin/grep
+/usr/bin/x86_64-linux-gnu-elfedit
+/usr/bin/timedatectl
+/usr/bin/x86_64-linux-gnu-strip
+/usr/bin/x86_64-linux-gnu-gcc-nm-12
+/usr/bin/scp
+/usr/bin/lsof
+/usr/bin/fallocate
+/usr/bin/stdbuf
+/usr/bin/perl5.36.0
+/usr/bin/apt-config
+/usr/bin/x86_64-linux-gnu-ld.bfd
+/usr/bin/chsh
+/usr/bin/systemd-delta
+/usr/bin/grog
+/usr/bin/pydoc3.11
+/usr/bin/discover-config
+/usr/bin/rev
+/usr/bin/shuf
+/usr/bin/which.debianutils
+/usr/bin/x86_64-linux-gnu-gcov-tool-12
+/usr/bin/whoami
+/usr/bin/localectl
+/usr/bin/su
+/usr/bin/ssh-add
+/usr/bin/b2sum
+/usr/bin/ln
+/usr/bin/wall
+/usr/bin/debconf-communicate
+/usr/bin/nc.traditional
+/usr/bin/dbus-daemon
+/usr/bin/routel
+/usr/bin/dpkg-divert
+/usr/bin/seq
+/usr/bin/piconv
+/usr/bin/btop
+/usr/bin/systemd-cat
+/usr/bin/ping
+/usr/bin/realpath
+/usr/bin/tzselect
+/usr/bin/grub-glue-efi
+/usr/bin/cat
+/usr/bin/stat
+/usr/bin/systemd-stdio-bridge
+/usr/bin/column
+/usr/bin/setsid
+/usr/bin/linux-version
+/usr/bin/apt-ftparchive
+/usr/bin/ls
+/usr/bin/sotruss
+/usr/bin/lslogins
+/usr/bin/cpio
+/usr/bin/dpkg-trigger
+/usr/bin/busybox
+/usr/bin/grub-mkrelpath
+/usr/bin/kernel-install
+/usr/bin/mkdir
+/usr/bin/apt-listchanges
+/usr/bin/envsubst
+/usr/bin/zgrep
+/usr/bin/x86_64-linux-gnu-lto-dump-12
+/usr/bin/ipcmk
+/usr/bin/showconsolefont
+/usr/bin/uclampset
+/usr/bin/apt-mark
+/usr/bin/dbus-monitor
+/usr/bin/zdump
+/usr/bin/icombine
+/usr/bin/select-default-iwrap
+/usr/bin/pod2man
+/usr/bin/htop
+/usr/bin/xzless
+/usr/bin/fgrep
+/usr/bin/sha1sum
+/usr/bin/aa-features-abi
+/usr/bin/tset
+/usr/bin/tee
+/usr/bin/c89-gcc
+/usr/bin/systemd-cgls
+/usr/bin/zmore
+/usr/bin/col
+/usr/bin/nping
+/usr/bin/users
+/usr/bin/pmap
+/usr/bin/truncate
+/usr/bin/man-recode
+/usr/bin/systemd-path
+/usr/bin/nslookup
+/usr/bin/gettext
+/usr/bin/look
+/usr/bin/xauth
+/usr/bin/pl2pm
+/usr/bin/true
+/usr/bin/tabs
+/usr/bin/w
+/usr/bin/grotty
+/usr/bin/memusage
+/usr/bin/sed
+/usr/bin/egrep
+/usr/bin/scriptlive
+/usr/bin/h2ph
+/usr/bin/env
+/usr/bin/setlogcons
+/usr/bin/setleds
+/usr/bin/getkeycodes
+/usr/bin/renice
+/usr/bin/clear_console
+/usr/bin/uptime
+/usr/bin/xzgrep
+/usr/bin/systemd-creds
+/usr/bin/bzgrep
+/usr/bin/mountpoint
+/usr/bin/x86_64-linux-gnu-c++filt
+/usr/bin/usbhid-dump
+/usr/bin/tload
+/usr/bin/sha512sum
+/usr/bin/wget
+/usr/bin/mkfifo
+/usr/bin/logger
+/usr/bin/grub-script-check
+/usr/bin/vimtutor
+/usr/bin/systemd-hwdb
+/usr/bin/linux-update-symlinks
+/usr/bin/getent
+/usr/bin/tbl
+/usr/bin/tr
+/usr/bin/apt-cdrom
+/usr/bin/ssh-keygen
+/usr/bin/apt-key
+/usr/bin/x86_64-linux-gnu-gcc-12
+/usr/bin/flock
+/usr/bin/vmstat
+/usr/bin/vim.basic
+/usr/bin/chattr
+/usr/bin/passwd
+/usr/bin/lessecho
+/usr/bin/namei
+/usr/bin/ip
+/usr/bin/xzdiff
+/usr/bin/uncompress
+/usr/bin/false
+/usr/bin/ucfr
+/usr/bin/zdiff
+/usr/bin/dpkg
+/usr/bin/traceroute.db
+/usr/bin/eqn
+/usr/bin/normalizer
+/usr/bin/sensible-browser
+/usr/bin/tac
+/usr/bin/dd
+/usr/bin/json_pp
+/usr/bin/psfxtable
+/usr/bin/ptargrep
+/usr/bin/buildhash
+/usr/bin/cut
+/usr/bin/xdg-user-dir
+/usr/bin/expr
+/usr/bin/x86_64-linux-gnu-gp-display-src
+/usr/bin/base32
+/usr/bin/run-mailcap
+/usr/bin/head
+/usr/bin/querybts
+/usr/bin/echo
+/usr/bin/zcmp
+/usr/bin/tasksel
+/usr/bin/skill
+/usr/bin/lsfd
+/usr/bin/prlimit
+/usr/bin/fold
+/usr/bin/sdiff
+/usr/bin/mesg
+/usr/bin/link
+/usr/bin/x86_64-linux-gnu-gp-collect-app
+/usr/bin/chage
+/usr/bin/setupcon
+/usr/bin/systemd-firstboot
+/usr/bin/lesskey
+/usr/bin/hexdump
+/usr/bin/chcon
+/usr/bin/ssh
+/usr/bin/zstdless
+/usr/bin/kbd_mode
+/usr/bin/systemd-notify
+/usr/bin/libnetcfg
+/usr/bin/podchecker
+/usr/bin/delpart
+/usr/bin/cpan5.36-x86_64-linux-gnu
+/usr/bin/sudoreplay
+/usr/bin/networkctl
+/usr/bin/pinky
+/usr/bin/x86_64-linux-gnu-gp-archive
+/usr/bin/systemd-cgtop
+/usr/bin/vim.tiny
+/usr/bin/sha384sum
+/usr/bin/py3clean
+/usr/bin/catman
+/usr/bin/shasum
+/usr/bin/x86_64-linux-gnu-gcov-dump-12
+/usr/bin/grub-mount
+/usr/bin/more
+/usr/bin/pwdx
+/usr/bin/bash
+/usr/bin/localedef
+/usr/bin/ispell
+/usr/bin/lslocks
+/usr/bin/hostnamectl
+/usr/bin/delv
+/usr/bin/ptar
+/usr/bin/dpkg-realpath
+/usr/bin/grub-file
+/usr/bin/scriptreplay
+/usr/bin/bzdiff
+/usr/bin/rgrep
+/usr/bin/basename
+/usr/bin/df
+/usr/bin/perl5.36-x86_64-linux-gnu
+/usr/bin/addpart
+/usr/bin/pidwait
+/usr/bin/date
+/usr/bin/chvt
+/usr/bin/grub-kbdcomp
+/usr/bin/du
+/usr/bin/sshpass
+/usr/bin/unicode_start
+/usr/bin/host
+/usr/bin/x86_64-linux-gnu-strings
+/usr/bin/dash
+/usr/bin/x86_64-linux-gnu-gp-display-html
+/usr/bin/pygettext3.11
+/usr/bin/unlink
+/usr/bin/readlink
+/usr/bin/systemd-ask-password
+/usr/bin/dmesg
+/usr/bin/hostid
+/usr/bin/lesspipe
+/usr/bin/systemd-id128
+/usr/bin/lcf
+/usr/bin/preconv
+/usr/bin/prove
+/usr/bin/dh_bash-completion
+/usr/bin/unmkinitramfs
+/usr/bin/nstat
+/usr/bin/expiry
+/usr/bin/debconf-show
+/usr/bin/zegrep
+/usr/bin/gettext.sh
+/usr/bin/dbus-update-activation-environment
+/usr/bin/loadkeys
+/usr/bin/lzmainfo
+/usr/bin/x86_64-linux-gnu-dwp
+/usr/bin/arch
+/usr/bin/write
+/usr/bin/znew
+/usr/bin/encguess
+/usr/bin/gpasswd
+/usr/bin/toe
+/usr/bin/sync
+/usr/bin/mcookie
+/usr/bin/findmnt
+/usr/bin/systemd-escape
+/usr/bin/ul
+/usr/bin/tic
+/usr/bin/faillog
+/usr/bin/openssl
+/usr/bin/gunzip
+/usr/bin/bzmore
+/usr/bin/ionice
+/usr/bin/pr
+/usr/bin/groups
+/usr/bin/debconf-escape
+/usr/bin/newgrp
+/usr/bin/setpriv
+/usr/bin/bashbug
+/usr/bin/bunzip2
+/usr/bin/rm
+/usr/bin/basenc
+/usr/bin/x86_64-linux-gnu-gp-display-text
+/usr/bin/munchlist
+/usr/bin/setmetamode
+/usr/bin/whatis
+/usr/bin/defmt-sh
+/usr/bin/splain
+/usr/bin/dpkg-query
+/usr/bin/vdir
+/usr/bin/nsenter
+/usr/bin/id
+/usr/bin/debconf-apt-progress
+/usr/bin/nl
+/usr/bin/x86_64-linux-gnu-addr2line
+/usr/bin/tempfile
+/usr/bin/deallocvt
+/usr/bin/py3compile
+/usr/bin/setkeycodes
+/usr/bin/perl
+/usr/bin/tail
+/usr/bin/rename.ul
+/usr/bin/perlbug
+/usr/bin/dnstap-read
+/usr/bin/colcrt
+/usr/bin/free
+/usr/bin/aa-enabled
+/usr/bin/colrm
+/usr/bin/fmt
+/usr/bin/dirname
+/usr/bin/apt-get
+/usr/bin/troff
+/usr/bin/grub-syslinux2cfg
+/usr/bin/resizecons
+/usr/bin/nroff
+/usr/bin/timeout
+/usr/bin/diff3
+/usr/bin/debconf-set-selections
+/usr/bin/lsb_release
+/usr/bin/perldoc
+/usr/bin/ckbcomp
+/usr/bin/ispell-wrapper
+/usr/bin/helpztags
+/usr/bin/savelog
+/usr/bin/setfont
+/usr/bin/kmod
+/usr/bin/systemd-repart
+/usr/bin/fincore
+/usr/bin/defmt-c
+/usr/bin/uname
+/usr/bin/ipcrm
+/usr/bin/dircolors
+/usr/bin/rpcgen
+/usr/bin/crontab
+/usr/bin/grub-mkrescue
+/usr/bin/dig
+/usr/bin/lastlog
+/usr/bin/sha256sum
+/usr/bin/uniq
+/usr/bin/paste
+/usr/bin/diff
+/usr/bin/lsirq
+/usr/bin/locale
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ find /usr/bin -type f [K[K[K[K[K[K[K[K/usr/sbin -type f  -name '*[0-9]*'
+[?2004l/usr/bin/pod2html
+/usr/bin/python3.11
+/usr/bin/ssh-argv0
+/usr/bin/c99-gcc
+/usr/bin/x86_64-linux-gnu-gcc-ar-12
+/usr/bin/base64
+/usr/bin/x86_64-linux-gnu-gcc-ranlib-12
+/usr/bin/enc2xs
+/usr/bin/x86_64-linux-gnu-gcov-12
+/usr/bin/pod2usage
+/usr/bin/x86_64-linux-gnu-objdump
+/usr/bin/sha224sum
+/usr/bin/x86_64-linux-gnu-objcopy
+/usr/bin/bzip2
+/usr/bin/x86_64-linux-gnu-readelf
+/usr/bin/x86_64-linux-gnu-ar
+/usr/bin/grub-mkpasswd-pbkdf2
+/usr/bin/md5sum
+/usr/bin/bzip2recover
+/usr/bin/grub-menulst2cfg
+/usr/bin/x86_64-linux-gnu-cpp-12
+/usr/bin/x86_64-linux-gnu-size
+/usr/bin/x86_64-linux-gnu-gprofng
+/usr/bin/x86_64-linux-gnu-gprof
+/usr/bin/h2xs
+/usr/bin/x86_64-linux-gnu-ranlib
+/usr/bin/x86_64-linux-gnu-ld.gold
+/usr/bin/x86_64-linux-gnu-as
+/usr/bin/pod2text
+/usr/bin/x86_64-linux-gnu-nm
+/usr/bin/x86_64-linux-gnu-elfedit
+/usr/bin/x86_64-linux-gnu-strip
+/usr/bin/x86_64-linux-gnu-gcc-nm-12
+/usr/bin/perl5.36.0
+/usr/bin/x86_64-linux-gnu-ld.bfd
+/usr/bin/pydoc3.11
+/usr/bin/x86_64-linux-gnu-gcov-tool-12
+/usr/bin/b2sum
+/usr/bin/x86_64-linux-gnu-lto-dump-12
+/usr/bin/pod2man
+/usr/bin/sha1sum
+/usr/bin/c89-gcc
+/usr/bin/pl2pm
+/usr/bin/h2ph
+/usr/bin/x86_64-linux-gnu-c++filt
+/usr/bin/sha512sum
+/usr/bin/x86_64-linux-gnu-gcc-12
+/usr/bin/x86_64-linux-gnu-gp-display-src
+/usr/bin/base32
+/usr/bin/x86_64-linux-gnu-gp-collect-app
+/usr/bin/cpan5.36-x86_64-linux-gnu
+/usr/bin/x86_64-linux-gnu-gp-archive
+/usr/bin/sha384sum
+/usr/bin/py3clean
+/usr/bin/x86_64-linux-gnu-gcov-dump-12
+/usr/bin/perl5.36-x86_64-linux-gnu
+/usr/bin/x86_64-linux-gnu-strings
+/usr/bin/x86_64-linux-gnu-gp-display-html
+/usr/bin/pygettext3.11
+/usr/bin/systemd-id128
+/usr/bin/x86_64-linux-gnu-dwp
+/usr/bin/bunzip2
+/usr/bin/x86_64-linux-gnu-gp-display-text
+/usr/bin/x86_64-linux-gnu-addr2line
+/usr/bin/py3compile
+/usr/bin/grub-syslinux2cfg
+/usr/bin/diff3
+/usr/bin/sha256sum
+/usr/sbin/dumpe2fs
+/usr/sbin/e2fsck
+/usr/sbin/e2freefrag
+/usr/sbin/e2undo
+/usr/sbin/e2scrub_all
+/usr/sbin/tune2fs
+/usr/sbin/e2image
+/usr/sbin/e4defrag
+/usr/sbin/mke2fs
+/usr/sbin/e4crypt
+/usr/sbin/killall5
+/usr/sbin/e2scrub
+/usr/sbin/resize2fs
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ PS1='\u@\h-$(date "+&[K%H:%M")>
+[?2004l[?2004h> PS1='\u@\h-$(date "+%H:%M")>[C[Cfind /usr/bin /usr/sbin -type f -name '*[0-9]*'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-type f[K[K> find /usr/bin -type f[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K^C[?2004l[?2004h[?2004l
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ export PS1="[K'\u@\h-$(date+[K +%H:%M) >'
+[?2004l[?2004heltex-pg1-v12@eltex-2025-autumn-13:34>PS1="$ps1[K[K[KPS1" n[Kbash
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ mkdir -p $(date [K[Ke +%Y)-{01, 02, 03 , [K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K,02,03,0 4,05,06,07,08,09,10,11,12}
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34m2025-01[0m   [01;34m2025-04[0m   [01;34m2025-07[0m   [01;34m2025-10[0m  '~eltex-pg1-v12_part.log'
+ [01;34m2025-02[0m   [01;34m2025-05[0m   [01;34m2025-08[0m   [01;34m2025-11[0m   report_part1.txt
+ [01;34m2025-03[0m   [01;34m2025-06[0m   [01;34m2025-09[0m   [01;34m2025-12[0m
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ echo "echo \"\" > [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mecho "echo \"\" > \"\${USER}_par[27m[7mt[27m[7m3.log\"" >> "${USER}_part3.log"[27m[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ echo "echo \"\" > \"\${USER}_part3.log\"" >> "${USER}_part3.log"
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34m2025-01[0m   [01;34m2025-04[0m   [01;34m2025-07[0m   [01;34m2025-10[0m   eltex-pg1-v12_part3.log
+ [01;34m2025-02[0m   [01;34m2025-05[0m   [01;34m2025-08[0m   [01;34m2025-11[0m  '~eltex-pg1-v12_part.log'
+ [01;34m2025-03[0m   [01;34m2025-06[0m   [01;34m2025-09[0m   [01;34m2025-12[0m   report_part1.txt
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ mkdir -p D1/D2/D3
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls 
+[?2004l [0m[01;34m2025-01[0m   [01;34m2025-05[0m   [01;34m2025-09[0m   [01;34mD1[0m
+ [01;34m2025-02[0m   [01;34m2025-06[0m   [01;34m2025-10[0m   eltex-pg1-v12_part3.log
+ [01;34m2025-03[0m   [01;34m2025-07[0m   [01;34m2025-11[0m  '~eltex-pg1-v12_part.log'
+ [01;34m2025-04[0m   [01;34m2025-08[0m   [01;34m2025-12[0m   report_part1.txt
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls -la D1/D2/D3
+[?2004ltotal 8
+drwxr-xr-x 2 eltex-pg1-v12 eltex-pg1-v12 4096 Oct 15 14:53 [0m[01;34m.[0m
+drwxr-xr-x 3 eltex-pg1-v12 eltex-pg1-v12 4096 Oct 15 14:53 [01;34m..[0m
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls D1
+[?2004l[0m[01;34mD2[0m
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ LS
+[?2004lbash: LS: command not found
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls'
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34m2025-01[0m   [01;34m2025-05[0m   [01;34m2025-09[0m   [01;34mD1[0m
+ [01;34m2025-02[0m   [01;34m2025-06[0m   [01;34m2025-10[0m   eltex-pg1-v12_part3.log
+ [01;34m2025-03[0m   [01;34m2025-07[0m   [01;34m2025-11[0m  '~eltex-pg1-v12_part.log'
+ [01;34m2025-04[0m   [01;34m2025-08[0m   [01;34m2025-12[0m   report_part1.txt
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls D1[K'[1PLSls'[K D1[K'[1PLSls D1-la D1/D2/D3[K-la D1/D2/D3D1[K[3PLSls D1-la D1/D2/D3[Kmkdir -p D1/D2/D3ls[Kecho "echo \"\" > \"\${USER}_part3.log\"" >> "${USER}_part3.log"[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir -p $(date +%Y)-{01,02,03,04,05,06,07,08,09,10,11,12}[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ export PS1='\u@\h-$(date +%H:%M)>'[K[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [4PPS1='\u@\h-$(date "+%H:%M")>
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pscreen -x 567961ls[Kx 567961ls[Kfind /usr/bin /usr/sbin -type f -name '*[0-9]*'[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[11P-type f
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -regex'.*[0-9].*'[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C/sbin -type f -regex'.*[0-9].*'[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C /bin /sbin -type f -regex'.*[0-9].*'[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [16Pscreen -x 567961
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kx 567961ls[Kfind /bin /sbin -type f -regex'.*[0-9].*'[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cname '*[[2P0-9]*'[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [16Pscreen -x 567961
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind /bin /sbin -type f -name '*[0-9]*'[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cregex'.*[0-9].*'[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ screen -ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cx 567961ls[Kx 567961ls[Kx 567961ls[K[K[K[K[K[K[K[K[K[K[Kscreen -x 567961ls[Kx 567961ls[Kx 567961[Kfind /bin /sbin -type f -regex'.*[0-9].*'[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cname '*[[2P0-9]*'[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [16Pscreen -x 567961
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind /bin /sbin -type f -name '*[0-9]*'[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cregex'.*[0-9].*'[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind /bin /sbin -type f -regex'.*[0-9].*'[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cname '*[[2P0-9]*'[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [16Pscreen -x 567961
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kecho $DATE_TIMEDATE_TIME="$DATE $TIME"[5Pecho "TIME:[C[C[C[C[C[C[CDATE: $DATE"[2Pscreen -x 567961ls[Kecho $TIMETIME=$(date +%T)[6Pecho $TIMETIME="$(time)"screen -x 567961r[C[C[C[C[C[C[Cls[Kecho $DATEDATE="$(date)"screen -x 567961r[C[C[C[C[C[C[Cls[Ktail -5 ~/.bash_history[6Phistory | tail -5date[Kexport PROMPT_COMMAND="history -a"[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [9Ptail -5 ~/.bash_history
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Phistory | tail -5date[Khistory | tail -5export PROMPT_COMMAND="history -a"[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [9Ptail -5 ~/.bash_history
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Phistory | tail -5date[Kexport HISTTIMEFORMAT="%d/%m/%y %T"[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls -d .*[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport HISTTIMEFORMAT="%d/%m/%y %T"[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ date[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chistory | tail -5date[Kexport HISTTIMEFORMAT="%d/%m/%y %T"[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls -d .*[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $HISTSIZEcompgen -v HISTscreen -x 567961r[C[C[C[C[C[C[Cls[Kx whoami_part2 [7Pr 567961ls[KS whoami_part2ls[Kr 567961x whoami_part2 [7Pr 567961ls[KS whoami_part2ls[Kr 567961x whoami_part2 [7Pr 567961ls[KS whoami_part2ls[Kr 567961x whoami_part2 ls[Kr 567961x[C[C[C[C[C[C[C[1Pcompgen -v HIST[1Pecho $HISTSIZE[6Pls -d .*[K[K[K[K[K[K[K[Krem[K[Km -rv [K[K[Kf[Krf D1/D2/[K[K[K[K
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ mkd[K[K[Kls
+[?2004l [0m[01;34m2025-01[0m   [01;34m2025-04[0m   [01;34m2025-07[0m   [01;34m2025-10[0m   eltex-pg1-v12_part3.log
+ [01;34m2025-02[0m   [01;34m2025-05[0m   [01;34m2025-08[0m   [01;34m2025-11[0m  '~eltex-pg1-v12_part.log'
+ [01;34m2025-03[0m   [01;34m2025-06[0m   [01;34m2025-09[0m   [01;34m2025-12[0m   report_part1.txt
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ mkdir -p D1/D2/D3
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34m2025-01[0m   [01;34m2025-05[0m   [01;34m2025-09[0m   [01;34mD1[0m
+ [01;34m2025-02[0m   [01;34m2025-06[0m   [01;34m2025-10[0m   eltex-pg1-v12_part3.log
+ [01;34m2025-03[0m   [01;34m2025-07[0m   [01;34m2025-11[0m  '~eltex-pg1-v12_part.log'
+ [01;34m2025-04[0m   [01;34m2025-08[0m   [01;34m2025-12[0m   report_part1.txt
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls D1
+[?2004l[0m[01;34mD2[0m
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls D2
+[?2004lls: cannot access 'D2': No such file or directory
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ T[Ktouch D`[K1/D2/file.txt
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34m2025-01[0m   [01;34m2025-05[0m   [01;34m2025-09[0m   [01;34mD1[0m
+ [01;34m2025-02[0m   [01;34m2025-06[0m   [01;34m2025-10[0m   eltex-pg1-v12_part3.log
+ [01;34m2025-03[0m   [01;34m2025-07[0m   [01;34m2025-11[0m  '~eltex-pg1-v12_part.log'
+ [01;34m2025-04[0m   [01;34m2025-08[0m   [01;34m2025-12[0m   report_part1.txt
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls D1/D2
+[?2004l[0m[01;34mD3[0m  file.txt
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ nano f[K[K[K[K[K[Knano D3/[K[K[KD2[K1/D2/t4[K[Kfile.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;27H(B[0;7m[ Reading... ](B[m[22;26H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 7.2               D1/D2/file.txt                        [1;66H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[1;45H(B[0;7m*[66G(B[m[?12l[?25h[2dZ[?25l[?12l[?25ha[?25l[?12l[?25hd[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25ho[?25l[?12l[?25hz[?25l[?12l[?25hh[?25l[?12l[?25hn[?25l[?12l[?25ha[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25hy[?25l[?12l[?25ha[?25l[?12l[?25h [?25l[?12l[?25hA[?25l[?12l[?25hn[?25l[22d[K[?12l[?25h[2;16Ha[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25hs[?25l[?12l[?25hi[?25l[?12l[?25ha[?25l[?12l[?25h [?25l[22;7H(B[0;7m[ line  1/2 (50%), col 24/24 (100%), char 23/24 (95%) ](B[m[?12l[?25h[2;24H[24;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;22r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J[?2004h[?1h=[?1h=(B[0;7m  GNU nano 7.2               D1/D2/file.txt *                      [1;66H(B[m[2dZadorozhnaya Anastasia[21d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute[22d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[?25l[?12l[?25h[2;24H[?25l[?12l[?25h[22;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;23r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 7.2               D1/D2/file.txt *                      [2;1H(B[mZadorozhnaya Anastasia[21d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute[22d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[H[?2004h[?1h=[?1h=[21d[J[1;66H[22d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute[23d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[?25l[?12l[?25h[2;24H[?25l[?12l[?25h[23;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;24r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 7.2               D1/D2/file.txt *                      [2;1H(B[mZadorozhnaya Anastasia[22d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute[H[?2004h[?1h=[?1h=[22d[J[1;66H[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[?25l[?12l[?25h[2;24H[?25l[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;23r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 7.2               D1/D2/file.txt *                      [2;1H(B[mZadorozhnaya Anastasia[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute[H[?2004h[?1h=[?1h=[23d[J[1;66H[22d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute[23d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[?25l[?12l[?25h[2;24H[?25l[?12l[?25h[?25l[22;14H   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[23;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m Browse[K[21d(B[0;7mFile Name to Write: D1/D2/file.txt                                 [21;35H(B[m[?12l[?25h[?25l[21;26H[1K (B[0;7m[ Writing... ](B[m[K[1;45H(B[0;7m [66G(B[m[21;26H(B[0;7m[ Wrote 1 line ](B[m[22;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute[K[23;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[?12l[?25h[2;24H[?25l[21d[J[23d[?12l[?25h[23;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ln -s D1/D2/file.txt D1/D2/D3/fi le_symlink.txt
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ln D1/D2/file.txt D1/D2/D3/file_ hardlink.txt
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34m2025-01[0m   [01;34m2025-05[0m   [01;34m2025-09[0m   [01;34mD1[0m
+ [01;34m2025-02[0m   [01;34m2025-06[0m   [01;34m2025-10[0m   eltex-pg1-v12_part3.log
+ [01;34m2025-03[0m   [01;34m2025-07[0m   [01;34m2025-11[0m  '~eltex-pg1-v12_part.log'
+ [01;34m2025-04[0m   [01;34m2025-08[0m   [01;34m2025-12[0m   report_part1.txt
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls D1/D2/D3
+[?2004lfile_hardlink.txt  [0m[40;31;01mfile_symlink.txt[0m
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ echo "cat D1/D2/D3/file_hardlink /[K.[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ck ,[K.txt" >> eltex-pg1-v12_part3.log 
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ echo "readlink D1/D2/D3/file_sym link.txt [K">> eltex-pg1-v12_part3.log 
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ cat D1/D2/D3/file_herdlink.txt
+[?2004lcat: D1/D2/D3/file_herdlink.txt: No such file or directory
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ca[K[Kcat D1/D2/D3/file_herdlink.txt[1Prdlink.txtardlink.txt
+[?2004lZadorozhnaya Anastasia 
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ readlink D1/D2/D3/F[Kfile_symlink.t xt
+[?2004lD1/D2/file.txt
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ S[Kmv D1/D2/file.txt D1/
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ld[Ks D1
+[?2004l[0m[01;34mD2[0m  file.txt
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls D1mv D1/D2/file.txt D1/readlink D1/D2/D3/file_symlink.txt[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [2Pcat D1/D2/D3/file_hardlink.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lZadorozhnaya Anastasia 
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ cat D1/D2/D3/file_hardlink.txtls D1[Kmv D1/D2/file.txt D1/readlink D1/D2/D3/file_symlink.txt
+[?2004lD1/D2/file.txt
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ readlink D1/D2/D3/file_symlink.txt[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [2Pcat D1/D2/D3/file_hardlink.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls D1[Kmv D1/D2/file.txt D1/readlink D1/D2/D3/file_symlink.txt[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [2Pcat D1/D2/D3/file_hardlink.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Creadlink D1/D2/D3/file_symlink.txt[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [11Pmv D1/D2/file.txt D1/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls D1[Kcat D1/D2/D3/file_hardlink.txtreadlink D1/D2/D3/file_symlink.txt[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm -rf D1/D2
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls D1
+[?2004lfile.txt
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ find / -type f -size +20M 2>/dev /null
+[?2004l/usr/bin/x86_64-linux-gnu-lto-dump-12
+/usr/lib/gcc/x86_64-linux-gnu/12/lto1
+/usr/lib/gcc/x86_64-linux-gnu/12/cc1
+/usr/lib/x86_64-linux-gnu/libicudata.so.72.1
+/proc/kcore
+/boot/initrd.img-6.1.0-31-amd64
+/boot/initrd.img-6.1.0-32-amd64
+/boot/initrd.img-6.1.0-40-amd64
+/var/cache/apt/srcpkgcache.bin
+/var/cache/apt/pkgcache.bin
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_binary-amd64_Packages
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_source_Sources
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_i18n_Translation-en
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ clear
+[?2004l[H[2J[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ clearfind / -type f -size +20M 2>/dev/null >> $USER_pat[Krt3[K[K[K[K[K[K[K[K[K[K[K"${USER}_part3_gt50M.log
+[?2004l[?2004h> 
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ find / -type f -size +20M 2>/dev/null >> "${USER}_part3_gt50M.log 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C: "
+[?2004l[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ cat eltex-pg1-v12_part3_gt50M.log 
+[?2004l/usr/bin/x86_64-linux-gnu-lto-dump-12
+/usr/lib/gcc/x86_64-linux-gnu/12/lto1
+/usr/lib/gcc/x86_64-linux-gnu/12/cc1
+/usr/lib/x86_64-linux-gnu/libicudata.so.72.1
+/proc/kcore
+/boot/initrd.img-6.1.0-31-amd64
+/boot/initrd.img-6.1.0-32-amd64
+/boot/initrd.img-6.1.0-40-amd64
+/var/cache/apt/srcpkgcache.bin
+/var/cache/apt/pkgcache.bin
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_binary-amd64_Packages
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_source_Sources
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_i18n_Translation-en
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ find ~ type f -mtime -1
+[?2004l/home/eltex-pg1-v12
+/home/eltex-pg1-v12/2025-03
+/home/eltex-pg1-v12/eltex-pg1-v12_part3_gt50M.log
+/home/eltex-pg1-v12/2025-06
+/home/eltex-pg1-v12/2025-12
+/home/eltex-pg1-v12/2025-01
+/home/eltex-pg1-v12/2025-11
+/home/eltex-pg1-v12/.local
+/home/eltex-pg1-v12/.local/share
+/home/eltex-pg1-v12/.local/share/nano
+/home/eltex-pg1-v12/~eltex-pg1-v12_part.log
+/home/eltex-pg1-v12/2025-07
+/home/eltex-pg1-v12/2025-08
+/home/eltex-pg1-v12/eltex-pg1-v12_part3.log
+/home/eltex-pg1-v12/D1
+/home/eltex-pg1-v12/D1/file.txt
+/home/eltex-pg1-v12/2025-09
+/home/eltex-pg1-v12/.bash_history
+/home/eltex-pg1-v12/2025-04
+/home/eltex-pg1-v12/2025-05
+/home/eltex-pg1-v12/2025-02
+/home/eltex-pg1-v12/2025-10
+find: ‘type’: No such file or directory
+find: ‘f’: No such file or directory
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ find ~ type f -mtime -1cat eltex-pg1-v12_part3_gt50M.log [A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ find / -type f -size +20M 2>/dev/null >> "${USER}_part3_gt50M.log"[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ cat eltex-pg1-v12_part3_gt50M.log [K[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [9Pfind ~ type f -mtime -1
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kfind ~ type f -mtime -1cat eltex-pg1-v12_part3_gt50M.log [A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ find / -type f -size +20M 2>/dev/null >> "${USER}_part3_gt50M.log" 
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind / -type f -size +20M 2>/dev/null[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ ls D1[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm -rf D1/D2eadlink D1/D2/D3/file_symlink.txt[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [2Pcat D1/D2/D3/file_hardlink.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls D1[Kmv D1/D2/file.txt D1/ls D1[Kcat D1/D2/D3/file_hardlink.txtreadlink D1/D2/D3/file_symlink.txt[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [C[20Pm -rf D1/D2
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pls D1find / -type f -size +20M 2>/dev/null[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ clear[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind / -type f -size +20M 2>/dev/null >> "${USER}_part3_gt50M.log 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ cat eltex-pg1-v12_part3_gt50M.log [K[A[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ [9Pfind ~ type f -mtime -1
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kfind `[K~ -tu[Kype f -mmin -1440
+[?2004l/home/eltex-pg1-v12/eltex-pg1-v12_part3_gt50M.log
+/home/eltex-pg1-v12/~eltex-pg1-v12_part.log
+/home/eltex-pg1-v12/eltex-pg1-v12_part3.log
+/home/eltex-pg1-v12/D1/file.txt
+/home/eltex-pg1-v12/.bash_history
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ which find
+[?2004l/usr/bin/find
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ w[Kwhereis find
+[?2004lfind: /usr/bin/find /usr/share/man/man1/find.1.gz /usr/share/info/find.info-1.gz /usr/share/info/find.info-2.gz /usr/share/info/find.info.gz
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ file /usr/n[Kbin/find
+[?2004l/usr/bin/find: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=5545a6c7162d325fbe5ffabcbfe4e5521b66ce70, for GNU/Linux 3.2.0, stripped
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ file /boot/initrd.img*
+[?2004l/boot/initrd.img-6.1.0-31-amd64: ASCII cpio archive (SVR4 with no CRC)
+/boot/initrd.img-6.1.0-32-amd64: ASCII cpio archive (SVR4 with no CRC)
+/boot/initrd.img-6.1.0-40-amd64: ASCII cpio archive (SVR4 with no CRC)
+[?2004h[01;32meltex-pg1-v12@eltex-2025-autumn[00m:[01;34m~[00m$ 
