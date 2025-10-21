@@ -258,4 +258,6 @@ remote: Compressing objects: 100% (14/14), done.
 remote: Total 17 (delta 1), reused 17 (delta 1), pack-reused 0 (from 0)
 Receiving objects: 100% (17/17), 25.55 KiB | 331.00 KiB/s, done.
 Resolving deltas: 100% (1/1), done.
+root@eltex-practice2-pg1-v12:~/Eltex_clone# ls
+Eltex
 
