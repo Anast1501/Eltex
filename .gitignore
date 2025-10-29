@@ -1,0 +1,7 @@
+*.o
+*.a
+*.lib
+*.exe
+*.out
+*.gch
+
