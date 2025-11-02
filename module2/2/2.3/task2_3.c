@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdarg.h>
-//#include "task2_3.h"
+#include "task2_3.h"
 
 //Функция сложения чисел
 double addition(int countVariable, ...)
@@ -78,9 +78,10 @@ void displayMenu()
     printf("Выберите действие: ");
 }
 
-int getNumberOPerationUser()
+//Функция получения номера операции от пользователя 
+int getNumberOperationUser()
 {
-    int choiceUserOperation;
-    scanf("%d", &choiceUserOperation);
-    return choiceUserOperation;
+    int choiceUserOperation; //переменная для хранения выбора пользователя
+    scanf("%d", &choiceUserOperation); //чтение выбора пользователя из входного потока
+    return choiceUserOperation; //возврат выбранного номера операции
 }
