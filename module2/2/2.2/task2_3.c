@@ -1,5 +1,8 @@
+//2.2 ПРОГРАММА-КАЛЬКУЛЯТОР
+
 #include <stdio.h>
 #include <stdarg.h>
+#include "task2_3.h"
 
 //Функция сложения чисел
 double addition(int countVariable, ...)

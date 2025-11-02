@@ -1,3 +1,5 @@
+//2.2 ПРОГРАММА-КАЛЬКУЛЯТОР
+
 #include <stdio.h>
 #include "task2_3.h"
 
@@ -22,6 +24,8 @@ int main()
 
         //Массив для хранения ввода значений пользователем
         double inputValuesUser[count];
+
+        //Цикл для ввода всех чисел
         for(int i = 0; i<count; i++)
         {
             printf("Введите значения: ");
