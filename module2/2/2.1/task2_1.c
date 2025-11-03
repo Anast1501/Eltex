@@ -49,6 +49,7 @@ int LinkUnique(Contact contactsBook[], int countContacts, const char *link)
 //Функция добавление контакта в телефонную книгу
 void addContact(Contact contactsBook[], int *countContacts)
 {
+
     //Проверка на переполнение телефонной книги
     if(*countContacts >= MAX_CONTACTS)
     {
@@ -59,7 +60,7 @@ void addContact(Contact contactsBook[], int *countContacts)
     Contact newContact; //создание временной переменной для нового контакта
 
     //Ввод полей телефонного справочника
-    printf("Введите ФИО: ");
+    printf("Введите ФИО (Обязательно для заполнения): ");
     fgets(newContact.persName, MAX_NAME_LEN, stdin); //чтение ввода с клавиатуры
     newContact.persName[strcspn(newContact.persName, "\n")] = 0; //удаление символа новой строки
 
@@ -78,16 +79,16 @@ void addContact(Contact contactsBook[], int *countContacts)
     fgets(newContact.workPosition, MAX_POSITION_LEN, stdin);
     newContact.workPosition[strcspn(newContact.workPosition, "\n")] = 0;
 
-    printf("Введите номер телефона: ");
+    printf("Введите номер телефона (Обязательно для заполнения): ");
     fgets(newContact.persPhone, MAX_PHONE_LEN, stdin);
     newContact.persPhone[strcspn(newContact.persPhone, "\n")] = 0;
 
-    //ПРОВЕРКА, ЧТО НОМЕР ТЕЛЕФОНА ПЕРСОНЫ ЗАПИСАН(СУЩЕСТВУЕТ/ЕСТЬ) В ТЕЛЕФОННОЙ КНИГЕ + ПРОВЕРКА УНИКАЛЬНОСТИ
+    
     
     //Проверка, что номер телефона вписан
     if(strlen(newContact.persPhone)==0)
     {
-        printf("Укажите номер телефона\n");
+        printf("Укажите номер телефона!\n");
         return;
     }
 
@@ -97,7 +98,7 @@ void addContact(Contact contactsBook[], int *countContacts)
         printf("Такой номер телефона уже существует\n");
         return;
     }
-
+    getchar();
     printf("Введите Email: ");
     fgets(newContact.persEmail, MAX_EMAIL_LEN, stdin);
     newContact.persEmail[strcspn(newContact.persEmail, "\n")] = 0;
@@ -119,6 +120,7 @@ void addContact(Contact contactsBook[], int *countContacts)
 //Функция изменение контакта в телефонной книге
 void editContact(Contact contactsBook[], int countContacts)
 {
+
     //Проверка на пустоту телефонной книги
     if(countContacts == 0)
     {
@@ -129,12 +131,13 @@ void editContact(Contact contactsBook[], int countContacts)
     //Показ контактов для выбора
     printContact(contactsBook, countContacts);
 
-    //TODO: Поиск контакта по номеру телефона
+    //Поиск контакта по номеру телефона
     char searchPhone[MAX_PHONE_LEN]; //создание массива для хранения номера поиска
     printf("Ввод номера телефона для поиска контакта: ");
     fgets(searchPhone, MAX_PHONE_LEN, stdin); //чтение номера телефона для поиска
     searchPhone[strcspn(searchPhone, "\n")] = 0; //удаление символа новой строки
-
+    
+    
     //Поиск контакта
     int foundIndexContact = -1; //переменная для хранения индекса найденного контакта (-1 = не найден)
     //Цикл по всем контактам
@@ -157,7 +160,7 @@ void editContact(Contact contactsBook[], int countContacts)
 
 
     //Отображение найденного контакта
-    printf("\nНайден контакт:\n");
+    printf("\nНайден контакт:\n");//код библиотеки
     printf("ФИО: %s\n", contactsBook[foundIndexContact].persName);
     printf("Телефон: %s\n", contactsBook[foundIndexContact].persPhone);
     printf("Место работы: %s\n", contactsBook[foundIndexContact].persWork);
@@ -174,6 +177,7 @@ void editContact(Contact contactsBook[], int countContacts)
     char tempEmail[MAX_EMAIL_LEN];
     char tempLink[MAX_LINK_LEN];
 
+    getchar();
     printf("Введите новое ФИО: ");
     fgets(tempName, MAX_NAME_LEN, stdin);
     tempName[strcspn(tempName, "\n")] = 0;
@@ -319,7 +323,7 @@ void editContact(Contact contactsBook[], int countContacts)
             }
 
             (*countContacts)--; //уменьшение кол-ва контактов
-            printf("Контакт успешно удалён");
+            printf("Контакт успешно удалён \n");
             //printf("Осталось контактов: %d\n", *countContacts);
         }
         else{
@@ -336,7 +340,7 @@ void editContact(Contact contactsBook[], int countContacts)
     {
         if(countContacts == 0)
         {
-            printf("Телефонная книга пуста");
+            printf("Телефонная книга пуста \n");
             return;
         }
 
@@ -354,4 +358,3 @@ void editContact(Contact contactsBook[], int countContacts)
         }
         printf("\n");
     }
-

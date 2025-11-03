@@ -1,13 +1,12 @@
 #ifndef TASK2_1_H_
 #define TASK2_1_H_
 
-//код библиотеки
 
 // #define - директива макрос значение
 #define MAX_NAME_LEN 50
 #define MAX_WORK_LEN 200
 #define MAX_POSITION_LEN 100
-#define MAX_PHONE_LEN 10
+#define MAX_PHONE_LEN 12
 #define MAX_EMAIL_LEN 50
 #define MAX_LINK_LEN 100
 #define MAX_CONTACTS 100
