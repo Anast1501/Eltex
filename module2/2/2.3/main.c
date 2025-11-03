@@ -3,21 +3,30 @@
 
 int main()
 {
-    int choiceUserOperation; //переменная для хранения выбора операции 
+    int choiceUserOperation=1; //переменная для хранения выбора операции 
     int count = 0; //кол-во введённых чисел
     
-    displayMenu();
+    
 
     while(choiceUserOperation!=0)
-    {
+    {   
+        displayMenu();
         scanf("%d", &choiceUserOperation);
-        printf("Введите количество значений: ");
+
+        if(choiceUserOperation==0)
+        {
+            break;
+        }
+
+        printf("Введите количество значений до 4-х: ");
         scanf("%d", &count);
+
 
         //Проверка контроля пользователя
         if(count<1 || count>4)
         {
-            printf("Превышение лимита");
+            printf("Превышение лимита \n");
+            continue;
         }
 
         //Массив для хранения ввода значений пользователем
@@ -95,8 +104,8 @@ int main()
             break;
             
             //Выход
-            case 0:
-            break;
+            //case 0:
+            //break;
         }
     }
 }

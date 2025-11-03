@@ -57,7 +57,7 @@ double division(int countVariable, ...)
     //Проверка деления на ноль
     if(divisor == 0)
     {
-        printf("Ошибка: деления на ноль\n");
+        printf("Ошибка: деление на ноль\n");
         va_end(startVariable);
         return 0;
     }
