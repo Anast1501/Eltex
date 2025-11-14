@@ -54,18 +54,29 @@ double division(int countVariable, ...)
     for(int i = 1; i<countVariable; i++)
     {
     double divisor = va_arg(startVariable, double);
-    //Проверка деления на ноль
-    if(divisor == 0)
-    {
-        printf("Ошибка: деление на ноль\n");
-        va_end(startVariable);
-        return 0;
-    }
     result/=divisor;
     }
     va_end(startVariable);
     return result;
 }
+
+    //Функция для вызова функций через указатель
+    double callVariadicFunc(funcOperation func, int count, double values[])
+    {
+        switch(count)
+        {
+         case 1:
+            return func(count, values[0]);
+         case 2:
+            return func(count, values[0], values[1]);
+         case 3:
+            return func(count, values[0], values[1], values[2]);
+         case 4:
+            return func(count, values[0], values[1], values[2], values[3]);
+         default:
+            return 0;
+        }
+    }
 
 void displayMenu()
 {
@@ -85,3 +96,5 @@ int getNumberOperationUser()
     scanf("%d", &choiceUserOperation); //чтение выбора пользователя из входного потока
     return choiceUserOperation; //возврат выбранного номера операции
 }
+
+
