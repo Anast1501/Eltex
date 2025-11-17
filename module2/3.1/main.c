@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
         }
     }
     
-    // Обработка модификации прав доступа (argc >= 3)
+    //Обработка модификации прав доступа (argc >= 3)
     if(argc >= 3)
     {
         struct stat file_stat;
@@ -53,12 +53,12 @@ int main(int argc, char *argv[])
         mode_t original_mode = file_stat.st_mode & 0777; // Только права доступа
         mode_t modified_mode = original_mode;
         
-        // Применяем все переданные модификации
+        //Применение всех переданных модификаций
         for (int i = 2; i < argc; i++) {
             modified_mode = ApplyModification(modified_mode, argv[i]);
         }
         
-        // Отображаем результат модификации
+        //Отображение результата модификации
         printf("Результат модификации прав доступа для файла: %s\n", argv[1]);
         printf("==================================================\n");
         
